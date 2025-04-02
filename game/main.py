@@ -220,7 +220,7 @@ draw_text(screen, "Game Over!", 40, WIDTH / 2, HEIGHT / 3)
 draw_text(screen, f"Hits: {score - miss}", 30, WIDTH / 2, HEIGHT / 2)
 draw_text(screen, f"Missed Balls: {miss}", 30, WIDTH / 2, HEIGHT / 1.8)
 total_balls_faced = score + miss
-reaction_time = 0
+reaction_time = score/game_time_seconds
 if score > 0:
     divide_by = game_time_seconds
     if (score + miss) < game_time_seconds:

@@ -1,2 +1,0 @@
-# mrcricket
-Simple pygame
